@@ -9,10 +9,18 @@
 </servlet-mapping>‌ 
 <servlet>‌ ‌
 ‌<servlet-name>Myservlet2</servlet-name>‌ ‌
-‌<servlet-class>View1</servlet-class>‌ ‌
+‌<servlet-class>Shipping</servlet-class>‌ ‌
 ‌</servlet>‌ ‌
 ‌<servlet-mapping>‌ ‌
 ‌<servlet-name>Myservlet2</servlet-name>‌
-‌<url-pattern>/logval2</url-pattern>‌ ‌
+‌<url-pattern>/shipping</url-pattern>‌ ‌
+</servlet-mapping>‌ 
+<servlet>‌ ‌
+‌<servlet-name>Myservlet3</servlet-name>‌ ‌
+‌<servlet-class>Order</servlet-class>‌ ‌
+‌</servlet>‌ ‌
+‌<servlet-mapping>‌ ‌
+‌<servlet-name>Myservlet3</servlet-name>‌
+‌<url-pattern>/order</url-pattern>‌ ‌
 </servlet-mapping>‌ ‌
 </web-app>

@@ -37,7 +37,15 @@ if(userName == null)
 </div>
 <br>
 <form action="view.jsp">
-<input type="submit" class="btn btn-success" value="view all records" >
+<input type="submit" class="btn btn-success" value="view all records">
+</form>
+<br>
+<form action="book.html">
+<input type="submit" class="btn btn-info" value="Available Books" >
+</form>
+<br>
+<form action="http://localhost:8080/book31/order">
+<input type="submit" class="btn btn-info" value="Order Details"/>
 </form>
 </body>
 </html>

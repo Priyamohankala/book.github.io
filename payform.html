@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+   
+   
+
+
+  </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -125,13 +131,13 @@ span.price {
 <div class="row">
   <div class="col-75">
     <div class="container">
-      <form action="closemsg.html">
+      <form action="http://localhost:8080/book31/shipping">
       
         <div class="row">
           <div class="col-50">
             <h3>Billing Address</h3>
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="priya.M">
+            <input type="text" id="fname" name="first" placeholder="priya.M">
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
             <input type="text" id="email" name="email" placeholder="priya@gmail.com">
             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
@@ -188,7 +194,7 @@ span.price {
         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
-        <input type="submit" class="btn btn-link" value="Continue to checkout" class="btn">
+        <input type="submit" class="btn btn-link" value="Continue to checkout" onclick="validate()" class="btn">
       </form>
     </div>
   </div>

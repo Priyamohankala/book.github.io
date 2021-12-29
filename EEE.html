@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ece books</title>
 
-        <link rel="stylesheet" href="styles.css" />
+        <title>Ece books</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="store.js" async></script>
         <style>
             body{
-                background-color: rgb(118, 219, 95);
+                background-color: rgb(181, 216, 53);
             }
-        </style>
+            
+</style>
     </head>
     <body align="center">
         
         <section class="container content-section">
-        
+        <div class="zoom">
             <font color="blue"><h1 class="section-header">  ELECTRONICS AND ELECTRICAL ENGINEERING</h1></font>
             <div class="shop-items">
                 <div class="shop-item">
@@ -22,13 +32,13 @@
                         <tr><td>
                     <h2><span class="shop-item-title">IntelMicroProcessors</span></h2>
                     
-                    <img class="shop-item-image" src="basic1.jpg">
+                    <img class="shop-item-image" src="elect13.jpg">
                     <div class="detail">
                         <br>
                         <br>
                         <span class="price">$99.98</span>
                         <br>
-                        <button class="button" type="button">ADD TO CART</button>
+                        <button class="button" class="btn btn-success" type="button">ADD TO CART</button>
                     </div>
                 </td>
                 </div>
@@ -42,7 +52,7 @@
                         <br>
                         <span class="price">$51</span>
                         <br>
-                        <button class="button"type="button">ADD TO CART</button>
+                        <button class="button" class="btn btn-success" type="button">ADD TO CART</button>
                     </div>
                 </td>
                 
@@ -58,15 +68,15 @@
                         <span class="cart-total-price">$0</span>
                     </div>
                     <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-                    <form action="http://localhost:8080/book31/OnlineBook.html?sub=Redirect+to+website">
+                    <form action="http://localhost:8080/book31/payform.html">
                         <br>
-                     <input type="submit" value="CheckOut" name="CheckOut"/>
+                     <input type="submit" value="CheckOut" class="btn btn-success"  name="CheckOut"/>
                      <br>
         
                     </form>
                     <form action="http://localhost:8080/book31/OnlineBook.html">
                         <br>
-                        <input type="submit" value="Back to Home Page" name="back"/>
+                        <input type="submit" value="Back to Home Page" class="btn btn-warning" name="back"/>
                     </form>
                 </td>
             </tr>
@@ -76,7 +86,7 @@
                 <tr><td>
                 <div class="shop-item">
                    <h2><span class="shop-item-title">Solar Power Home </span></h2> 
-                    <img class="shop-item-image" src="basic.jpeg">
+                    <img class="shop-item-image" src="elect6.jpg">
                     <div class="detail">
                         <br>
                         <br>
@@ -91,7 +101,7 @@
                 <td>
                 <div class="shop-item">
                    <h2> <span class="shop-item-title">Electrical installation book</span></h2>
-                    <img class="shop-item-image" src="basic.jpeg">
+                    <img class="shop-item-image" src="elect7.jpg">
                     <div class="detail">
                         <br>
                         <br>
@@ -102,6 +112,7 @@
                 </td></tr>
                 </div>
             </div>
+        </div>
         </table>
         </section>
         
