@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+	
+	<link rel="stylesheet" href="cart.css"
+		class="css" />
+        <script>
+            
+            </script>
+</head>
+<body align="center">
+    
+	<div class="container">
+	<div class="main-content">
+		<h1><p class="text">Payment</p></h1>
+	
+
+
+	<div class="card-details">
+		<p>Pay using Credit or Debit card</p>
+
+		<div class="card-number">
+		<label> Card Number </label>
+		<input
+			type="text"
+			class="card-number-field"
+			placeholder="1234-4567-8910-1234"/>
+		</div>
+        <br>
+		
+		<div class="date-number">
+		<label> Expiry Date </label>
+		<input type="text" class="date-number-field"
+				placeholder="DD-MM-YY" />
+		</div>
+        <br>
+
+		<div class="cvv-number">
+		<label> CVV number   </label>
+		<input type="text" class="cvv-number-field"
+				placeholder="xxx" />
+		</div>
+        <br>
+		<div class="nameholder-number">
+		<label> Card Holder name </label>
+		<input
+			type="text"
+			class="card-name-field"
+			placeholder="Enter your Name"/>
+		</div>
+        <br>
+	
+		String pwd = request.getParameter("pwd");
+	
+		  Cookie loginCookie = new Cookie("user",pwd);
+		  //setting cookie to expiry in 30 mins
+		  loginCookie.setMaxAge(30*60);
+		  response.addCookie(loginCookie);
+		  
+		  response.sendRedirect("selectrecord.jsp");
+		   
+		<button type="submit"
+				class="submit-now-btn">
+		submit
+		</button>
+	</div>
+	</div>
+</body>
+</html>

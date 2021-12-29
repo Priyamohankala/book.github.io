@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>FORM VALIDATION</title>
+       
+        <style>
+            body
+            {
+             
+             background-image: url(register.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             
+            }
+        </style>
+        <script>
+        
+           function validate()
+           {
+            var first=document.myform.firstname.value;
+            var last=document.myform.lastname.value;
+            var addr=document.myform.address.value;
+            var cityval=document.myform.city.value;
+            var statename=document.myform.state.value;
+            var countryname=document.myform.country.value;
+            var pincodeval=document.myform.pincode.value;
+            var user=document.myform.username.value;
+            var pass=document.myform.password.value;
+            
+            
+            if(first==""|| last=="" || addr=="" || cityval=="" || statename==""||countryname=="" ||pincodeval=="" || user==""||pass=="")
+              {
+                  alert("First name / last name / city / country /  username / password / must be filled");
+                  return false;
+              }
+              
+              if(pincodeval.length<6)
+              {
+                 alert("Pincode must be in 6 digit numeric value");
+                  return false;
+              }
+              else if(isNaN(pincodeval))
+              {
+                  alert("pincode must be in 6 digit numeric value");
+                  return false;
+              }
+               else if(pass.length<6)
+              {
+                  alert("password must be 6 letters long");
+                  return false;
+              }
+               else if( statename.length!='2'|| !isNaN(statename))
+              {
+            
+                alert("state must be 2 characters");
+                  return false;
+                  
+              }
+              
+            else
+            {
+                alert("successfully registered");
+
+            }
+        }
+   
+        </script>
+        </head>
+    <body>
+        <form name="myform" align="center" onsubmit="return validate()" action="http://localhost:8080/book31/insert.jsp">
+            <h1><font color="blue">User Registration Form</font></h1>            
+
+            <table align="center">
+                
+            <tr><td>Name :</td><td><input type="text" name="firstname"/></td></tr>
+           <tr><td>Last Name :</td><td> <input type="text" name="lastname"/></td></tr>
+          
+            <tr><td>Address : </td><td><input type="text" name="address"/></td></tr>
+            
+            <tr><td>City : </td><td><input type="text" name="city"/></td></tr>
+           
+           <tr><td>State : </td><td><input type="text" name="state"/></td></tr> 
+           
+           <tr><td>Country : </td><td><input type="text" name="country"/></td></tr> 
+           
+            <tr><td>Pincode :</td><td><input type="text" name="pincode"/></td>/</tr>
+            
+            <tr><td>User Name : </td><td><input type="text" name="username"/></td></tr>
+           
+            <tr><td>Password : </td><td><input type="password" name="password"/></td></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr><td colspan="2"><input type="checkbox" checked/> creating an account you agree to our <a href="agree.html">Terms & Privacy</a></td></tr>
+            <div class="alert alert-success">
+                <tr></tr>
+                <tr></tr>
+                <tr><td><input type="submit" class="btn btn-success" name="Register" value="Register User"/></td>
+                    <td><input type="reset" class="btn btn-warning" name="Reset"/></td></tr>
+            </div>
+           
+        </table>
+    
+        </form>
+    </body>
+</html>

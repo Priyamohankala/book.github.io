@@ -1,0 +1,377 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      
+        <script>
+       $(document).ready(function(){
+       $("#b1").click(function()
+       {
+           $("#p1").fadeToggle();
+       });
+       $("#b2").click(function()
+       {
+           $("#p2").fadeToggle();
+       });
+       $("#b3").click(function()
+       {
+           $("#p3").show();
+       });
+       });
+        </script>
+        
+        <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:greenyellow;
+            background-image: url(sea.jpeg);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            
+          }
+          
+          .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 300px;
+            perspective: 1000px;
+          }
+          
+          .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          }
+          
+          .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+          }
+          
+          .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+          }
+          
+          .flip-card-front {
+            background-color: rgb(167, 35, 112);
+            color: rgb(166, 216, 51);
+          }
+          
+          .flip-card-back {
+            background-color: #d6e228;
+            color: rgb(255, 255, 255);
+            transform: rotateY(180deg);
+          }
+          .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 20px;
+}
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #beec3e;
+  text-align: center;
+  cursor: pointer;
+  width: 51%;
+  font-size: 18px;
+}
+.checked {
+  color: orange;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(70, 34, 138);
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+          </style>
+          
+    </head>
+<body bgcolor="pink" align="center">
+    <font color="rgb(226, 43, 119)">
+    <div class="glow"><h1>Contact us</h1></div>
+    <br>
+    <br>
+    <div class="glow">
+    LinkedIn :<a href="https://www.linkedin.com/in/priyadharshini-m-aa5460195/" target="blank">visit</a>
+    <p id="p1" style="display: none;color:rgb(226, 43, 119)">Visit our LinkedIn site it also contains many 
+        books which is available for free download.</p>
+    <div id="b1"><button>show more info
+    </button></div>
+    <br>
+    
+    Facebook :<a href="www.google.com" target="blank">visit</a>
+    
+    <br>
+    
+    github link :<a href="https://github.com/Priyamohankala" target="blank">visit</a>
+    <br>
+    <br>
+    Instagram :<a href="www.google.com" target="blank">visit</a>
+    <p id="p2" style="display: none;color: rgb(226, 43, 119)">Visit our instagram site it also contains many 
+        books which is available for free download.</p>
+    <div id="b2"><button>show more info
+    </button></div>
+    <br>
+    
+    For further queries: Email us:<br>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRmVXBJjbvxRxDqNVKMPSdRvFWsWbbfHhpGXCjtKPRDsLnPcmPKQJPVzWgwfwJDjCGjTZjb" target="blank">priyamohan4102@gmail.com</a>
+    <p id="p3" style="display: none;color: rgb(226, 43, 119)">Open in a new tab</p>
+    <div id="b3"><button>request
+    </button></div>
+  </div>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <p> I pronounce after all there is no pleasure like perusing!- Jane Austen, Pride and Prejudice.
+
+<br>
+<br>
+
+
+
+Dear readers,
+
+We offer tremendous gathering of books in various classification of Fiction, Non-fiction, Biographies, History, Religions, Self – Help, Children. We likewise move in immense accumulation of Investments and Management, Computers, Engineering, Medical, College and School content references books proposed by various foundations as schedule the nation over. Other than to this, we likewise offer an expansive gathering of E-Books at reasonable valuing.
+
+We endeavor to broaden the consumer loyalty by providing food simple easy to use web index, brisk and easy to understand installment alternatives and snappier conveyance frameworks. Upside to the majority of this, we are arranged to give energizing offers and charming limits on our books.
+
+Too, we modestly welcome every one of the merchants around the nation to band together with us. We will without a doubt give you the stage to many shimmering areas and develop the “Organization Name” family.We might want to thank you for shopping with us. You can keep in touch with us for any new musings at “email-id” helping us to ad lib for the peruser fulfillment.
+</p>
+<br>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="avator.png" alt="Avatar" style="width:300px;height:300px;align-items: center;">
+    </div>
+    <div class="flip-card-back">
+        <p>developed by:</p>
+      <h1>M.Priya</h1> 
+      <p>Computer Science Engineer</p> 
+      <p>This was my first html project Online book store.I have added many features in this website 
+        Make use of this oppourtunity and improve your knowledge</p>
+      </p>
+    </div>
+  </div>
+</div>
+
+<h2 style="text-align:center">User Profile Card</h2>
+
+<div class="card">
+  <img src="avator.png" alt="Priyamohan" style="width:100%">
+  <h1>Priyadharshini.M</h1>
+  <p class="title">CEO & Founder, Example</p>
+  <p>Rajalakshmi Engineering college</p>
+  <div style="margin: 24px 0;">
+    <a href="https://www.google.com/" target="blank"><i class="fa fa-dribbble"></a> 
+    <a href="https://www.google.com/" target="blank"><i class="fa fa-twitter"></i></a>  
+    <a href="https://www.linkedin.com/in/priyadharshini-m-aa5460195/" target="blank"><i class="fa fa-linkedin">linkedIn</i></a>  
+    <a href="https://www.linkedin.com/in/priyadharshini-m-aa5460195/" target="blank"><i class="fab fa-facebook fa-2x"></i>Facebook</a> 
+  </div>
+  <p><button>Contact</button></p>
+ 
+</div>
+
+</font>
+<br>
+<div>
+  <table border=2>
+
+    <tr><td><h3>click to submit feedback form:</h3><br><a href="feedback.html">Feedback</a><br>
+    </td>  </tr>
+</table>
+<br>
+</div>
+<span class="heading">User Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 254 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+</body>
+</html>

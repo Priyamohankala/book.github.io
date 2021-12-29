@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)https://redstapler.co/realistic-water-effect-svg-turbulence-filter/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="https://redstapler.co/wp-content/fonts/montserrat-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="https://redstapler.co/wp-content/fonts/montserrat-v14-latin-regular.woff" as="font" type="font/woff" crossorigin="">
+<style>
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('Montserrat Regular'), local('Montserrat-Regular'),
+url('https://redstapler.co/wp-content/fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+url('https://redstapler.co/wp-content/fonts/montserrat-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+}
+</style>
+<link rel="preconnect" href="https://pagead2.googlesyndication.com/">
+<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com/">
+<link rel="preconnect" href="https://www.googletagservices.com/">
+<link rel="dns-prefetch" href="https://www.googletagservices.com/">
+<link rel="preconnect" href="https://googleads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/">
+<link rel="preconnect" href="https://www.google-analytics.com/">
+<link rel="dns-prefetch" href="https://www.google-analytics.com/">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Social Warfare v4.3.0 https://warfareplugins.com - BEGINNING OF OUTPUT -->
+<style>
+@font-face {
+font-family: "sw-icon-font";
+src:url("https://redstapler.co/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.eot?ver=4.3.0");
+src:url("https://redstapler.co/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.eot?ver=4.3.0#iefix") format("embedded-opentype"),
+url("https://redstapler.co/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.woff?ver=4.3.0") format("woff"),
+url("https://redstapler.co/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.ttf?ver=4.3.0") format("truetype"),
+url("https://redstapler.co/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.svg?ver=4.3.0#1445203416") format("svg");
+font-weight: normal;
+font-style: normal;
+font-display:block;
+}
+</style>
+<!-- Social Warfare v4.3.0 https://warfareplugins.com - END OF OUTPUT -->
+<!-- This site is optimized with the Yoast SEO plugin v17.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Realistic Water Effect using SVG Turbulence Filter | Red Stapler</title>
+<meta name="description" content="How to create a realistic water effect using svg turbulence filter and svg animate tag without using javascript. Source code is available for download.">
+<link rel="canonical" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Realistic Water Effect using SVG Turbulence Filter | Red Stapler">
+<meta property="og:description" content="How to create a realistic water effect using svg turbulence filter and svg animate tag without using javascript. Source code is available for download.">
+<meta property="og:url" content="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/">
+<meta property="og:site_name" content="Red Stapler">
+<meta property="article:publisher" content="https://www.facebook.com/theRedStapler/">
+<meta property="article:published_time" content="2019-10-06T16:57:46+00:00">
+<meta property="article:modified_time" content="2020-12-28T06:08:21+00:00">
+<meta property="og:image" content="https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-water-effect-tutorial.jpg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1078">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@redStapler_twit">
+<meta name="twitter:site" content="@redStapler_twit">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="Red Stapler">
+<meta name="twitter:label2" content="Est. reading time">
+<meta name="twitter:data2" content="3 minutes">
+<script src="./water_files/f(8).txt"></script><script src="./water_files/f(9).txt" id="google_shimpl"></script><script async="" src="./water_files/analytics.js.download"></script><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://redstapler.co/#website","url":"https://redstapler.co/","name":"Red Stapler","description":"Coding Tutorials and Development Tips","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://redstapler.co/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#primaryimage","inLanguage":"en-US","url":"https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-water-effect-tutorial.jpg","contentUrl":"https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-water-effect-tutorial.jpg","width":1920,"height":1078,"caption":"svg-turbulence-water-effect-tutorial"},{"@type":"WebPage","@id":"https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#webpage","url":"https://redstapler.co/realistic-water-effect-svg-turbulence-filter/","name":"Realistic Water Effect using SVG Turbulence Filter | Red Stapler","isPartOf":{"@id":"https://redstapler.co/#website"},"primaryImageOfPage":{"@id":"https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#primaryimage"},"datePublished":"2019-10-06T16:57:46+00:00","dateModified":"2020-12-28T06:08:21+00:00","author":{"@id":"https://redstapler.co/#/schema/person/e8dc47fdc584f6513fad0ec37d2265de"},"description":"How to create a realistic water effect using svg turbulence filter and svg animate tag without using javascript. Source code is available for download.","breadcrumb":{"@id":"https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://redstapler.co/realistic-water-effect-svg-turbulence-filter/"]}]},{"@type":"BreadcrumbList","@id":"https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://redstapler.co/"},{"@type":"ListItem","position":2,"name":"All Tutorials","item":"https://redstapler.co/tutorials/"},{"@type":"ListItem","position":3,"name":"Realistic Water Effect using SVG Turbulence Filter"}]},{"@type":"Person","@id":"https://redstapler.co/#/schema/person/e8dc47fdc584f6513fad0ec37d2265de","name":"Red Stapler","image":{"@type":"ImageObject","@id":"https://redstapler.co/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/f4a4db4e6213c53f16bac3d43f01c912?s=96&d=retro&r=g","contentUrl":"https://secure.gravatar.com/avatar/f4a4db4e6213c53f16bac3d43f01c912?s=96&d=retro&r=g","caption":"Red Stapler"}}]}</script>
+<!-- / Yoast SEO plugin. -->
+<link rel="dns-prefetch" href="https://platform.twitter.com/">
+<link rel="alternate" type="application/rss+xml" title="Red Stapler » Feed" href="https://redstapler.co/feed/">
+<link rel="alternate" type="application/rss+xml" title="Red Stapler » Comments Feed" href="https://redstapler.co/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Red Stapler » Realistic Water Effect using SVG Turbulence Filter Comments Feed" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/feed/">
+<!-- <link rel='stylesheet' id='social-warfare-block-css-css'  href='https://redstapler.co/wp-content/plugins/social-warfare/assets/js/post-editor/dist/blocks.style.build.css?ver=5.8.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='pocono-custom-fonts-css'  href='https://redstapler.co/wp-content/themes/pocono/assets/css/custom-fonts.css?ver=20180413' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://redstapler.co/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='social_warfare-css'  href='https://redstapler.co/wp-content/plugins/social-warfare/assets/css/style.min.css?ver=4.3.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='pocono-stylesheet-css'  href='https://redstapler.co/wp-content/themes/pocono/style.css?ver=1.5' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./water_files/9r2cn.css" media="all">
+<style id="pocono-stylesheet-inline-css" type="text/css">
+.site-description, .type-post .entry-footer .post-navigation { position: absolute; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; overflow: hidden; }
+</style>
+<!-- <link rel='stylesheet' id='jquery-lazyloadxt-fadein-css-css'  href='//redstapler.co/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.fadein.css?ver=5.8.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='a3a3_lazy_load-css'  href='//redstapler.co/wp-content/uploads/sass/a3_lazy_load.min.css?ver=1575555544' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='enlighterjs-css'  href='https://redstapler.co/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=52WSBcmJ88jQzRH' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./water_files/9r2cn(1).css" media="all">
+<script src="./water_files/9r2cn.js.download" type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://redstapler.co/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script> -->
+<!-- <script type='text/javascript' src='https://redstapler.co/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script> -->
+<!-- <script type='text/javascript' src='https://redstapler.co/wp-content/themes/pocono/assets/js/sidebar.js?ver=20161129' id='pocono-jquery-sidebar-js'></script> -->
+<script type="text/javascript" id="icwp-wpsf-shield-notbot-js-extra">
+/* <![CDATA[ */
+var shield_vars_notbotjs = {"ajax":{"not_bot":"action=icwp-wpsf&exec=not_bot&exec_nonce=df18a9398a&mod_slug=icwp-wpsf-ips"},"hrefs":{"ajax":"https:\/\/redstapler.co\/wp-admin\/admin-ajax.php"},"flags":{"run":true}};
+/* ]]> */
+</script>
+<script src="./water_files/5q4hs.js.download" type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://redstapler.co/wp-content/plugins/wp-simple-firewall/resources/js/shield/notbot.js?ver=12.0.8&#038;mtime=1632584584' id='icwp-wpsf-shield-notbot-js'></script> -->
+<script type="text/javascript" id="icwp-wpsf-shield-loginbot-js-extra">
+/* <![CDATA[ */
+var icwp_wpsf_vars_lpantibot = {"form_selectors":"","uniq":"6151d1301aba6","cbname":"icwp-wpsf-5cac2a7bca317","strings":{"label":"I'm a human.","alert":"Please check the box to show us you're a human.","loading":"Loading"},"flags":{"gasp":true,"captcha":false}};
+/* ]]> */
+</script>
+<script src="./water_files/p82n.js.download" type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://redstapler.co/wp-content/plugins/wp-simple-firewall/resources/js/shield/loginbot.js?ver=12.0.8&#038;mtime=1632584584' id='icwp-wpsf-shield-loginbot-js'></script> -->
+<link rel="https://api.w.org/" href="https://redstapler.co/wp-json/"><link rel="alternate" type="application/json" href="https://redstapler.co/wp-json/wp/v2/posts/2296"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://redstapler.co/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://redstapler.co/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="https://redstapler.co/?p=2296">
+<link rel="alternate" type="application/json+oembed" href="https://redstapler.co/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://redstapler.co/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F&amp;format=xml">
+<meta name="twitter:widgets:link-color" content="#000000"><meta name="twitter:widgets:border-color" content="#000000"><meta name="twitter:partner" content="tfwp"><link rel="icon" href="https://redstapler.co/wp-content/uploads/2016/12/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://redstapler.co/wp-content/uploads/2016/12/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://redstapler.co/wp-content/uploads/2016/12/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://redstapler.co/wp-content/uploads/2016/12/cropped-favicon-270x270.png">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Realistic Water Effect using SVG Turbulence Filter"><meta name="twitter:site" content="@redStapler_twit"><meta name="twitter:description" content="If you think you need a JavaScript or WebGL to create an animation like demo below, think again! In this tutorial I&#39;m going to show you how to create a realistic water effect using SVG…"><meta name="twitter:image" content="https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-water-effect-tutorial.jpg"><meta name="twitter:image:alt" content="svg-turbulence-water-effect-tutorial">
+<style type="text/css" id="wp-custom-css">
+.su-box-title {
+padding: 0.25em 1em !important;
+font-weight: 600 !important;
+}
+.su-box-content {
+font-style: italic !important;
+}
+.su-box.su-box-style-default {
+border-color: #f3f3f3 !important;
+}
+body, button, input, select, textarea { font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.entry-content {
+font-size: 1.1rem !important;
+line-height: 1.6 !important;
+}
+.content-single .post-content {
+border-radius: 10px 0 !important;
+}
+#text-5 {
+margin: 0;
+}
+#text-3 .widget-header {
+margin: 0 0 1.5em 0;
+}
+#twitter-timeline-profile-3, .textwidget {
+text-align:center;
+}
+.sidebar-navigation-toggle {
+background: url(https://redstapler.co/wp-content/uploads/2019/08/logo.jpg) !important;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+position: absolute;
+background-size: contain !important;
+top: 0.45rem;
+}
+.sidebar-navigation-toggle:after {
+display:none !important;
+}
+.site-title {
+margin: 0.15rem 0;
+padding: 0.2rem;
+font-size: 1.4rem;
+}
+.site-content, body {
+background:#f9f9f9;
+}
+.site-branding {
+float: left;
+margin-left: 4em;
+transition: all 0.2s ease;
+}
+.site-header {
+border-bottom: 2px solid rgba(0,0,0,0.125) !important;
+}
+.skip-link {
+display:none;
+}
+.header-social-icons .social-icons-menu li a:before {
+content: '' !important;
+}
+.header-social-icons .social-icons-menu li a {
+font-weight: 600;
+font-size:17px;
+padding-top:0.8em;
+padding-right: 10px;
+}
+.header-social-icons .header-social-icons {
+top:0.48em;
+}
+.emoji {
+height:20px;
+}
+.widget-magazine-posts .medium-post .entry-title {
+font-size:1.1rem;
+}
+.wp-post-image {
+box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+}
+.banner-div {
+position:relative;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+@media only screen and (max-width:800px)
+{
+.single #secondary {
+display: none;
+}
+}
+#banner-text-div a, #more-tutorial {
+transition: 0.5s;
+}
+.post-content img {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.05);
+border-radius: 5px;
+}
+div.enlighter {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/* prevent footer floating */
+html {
+height: 100vh;
+}
+body {
+height: 100%;
+}
+#page {
+min-height: 100%;
+}
+#page > #footer {
+position: absolute;
+width: 100%;
+bottom: 0;
+}
+.site-content {
+padding-bottom: 100px;
+}
+.swp_social_panel.swp_horizontal_panel {
+margin-bottom: 40px !important;
+}		</style>
+<meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><link rel="preload" href="./water_files/f(10).txt" as="script"><script type="text/javascript" src="./water_files/f(10).txt"></script><link rel="preload" href="./water_files/f(11).txt" as="script"><script type="text/javascript" src="./water_files/f(11).txt"></script><script charset="utf-8" src="./water_files/moment_timeline.c7de492113f2eac2bb49ff9013aa2889.js.download"></script><script charset="utf-8" src="./water_files/timeline.55167c7072ca7f4363bf18820295ba93.js.download"></script></head>
+<body class="post-template-default single single-post postid-2296 single-format-standard sidebar-right post-layout-three-columns post-layout-columns author-hidden" style="padding-top: 0px; padding-bottom: 0px;">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-96277801-1', 'auto');
+ga('send', 'pageview');
+</script>
+<div id="page" class="hfeed site">
+<a class="skip-link screen-reader-text" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#content">Skip to content</a>
+<header id="masthead" class="site-header clearfix" role="banner">
+<div class="header-main container clearfix">
+<section class="sidebar-navigation-container">
+<button id="sidebar-navigation-toggle" class="sidebar-navigation-toggle" type="button" aria-label="Toggle sidebar navigation menu" aria-controls="sidebar-navigation" aria-haspopup="true" aria-expanded="false" aria-pressed="false"></button>
+<div id="sidebar-navigation" class="sidebar-navigation widget-area clearfix" role="complementary" aria-labelledby="sidebar-navigation-toggle">
+<aside id="categories-4" class="widget widget_categories clearfix"><div class="widget-header"><h3 class="widget-title">Tutorials</h3></div>
+<ul>
+<li class="cat-item cat-item-7"><a href="https://redstapler.co/category/css/">CSS</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-55"><a href="https://redstapler.co/category/excel/">Excel</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-6"><a href="https://redstapler.co/category/html/">HTML</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-3"><a href="https://redstapler.co/category/javascript/">Javascript</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-2"><a href="https://redstapler.co/category/node-js/">Node.js</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-1"><a href="https://redstapler.co/category/others/">Others</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-268"><a href="https://redstapler.co/category/scss/">SCSS</a><span class="item-count"></span></li>
+<li class="cat-item cat-item-4"><a href="https://redstapler.co/category/web-development/">Web Development</a><span class="item-count"></span></li>
+</ul>
+</aside><aside id="pages-3" class="widget widget_pages clearfix"><div class="widget-header"><h3 class="widget-title">Pages</h3></div>
+<ul>
+<li class="page_item page-item-66"><a href="https://redstapler.co/">Home</a></li>
+<li class="page_item page-item-72 current_page_parent"><a href="https://redstapler.co/tutorials/">All Tutorials</a></li>
+<li class="page_item page-item-60"><a href="https://redstapler.co/about/">About</a></li>
+<li class="page_item page-item-335"><a href="https://redstapler.co/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</aside>
+</div><!-- #sidebar-navigation -->
+</section>
+<div id="logo" class="site-branding clearfix">
+<p class="site-title"><a href="https://redstapler.co/" rel="home">Red Stapler</a></p>
+<p class="site-description">Coding Tutorials and Development Tips</p>
+</div><!-- .site-branding -->
+<div id="header-social-icons" class="header-social-icons social-icons-navigation clearfix">
+<ul id="menu-main1" class="social-icons-menu"><li id="menu-item-1973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1973"><a href="https://redstapler.co/"><span class="main-menu-text">Home</span></a></li>
+<li id="menu-item-1972" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1972"><a href="https://redstapler.co/tutorials/"><span class="main-menu-text">Tutorials</span></a></li>
+<li id="menu-item-1974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1974"><a href="https://redstapler.co/about/"><span class="main-menu-text">About</span></a></li>
+</ul>				</div>
+</div><!-- .header-main -->
+</header><!-- #masthead -->
+<div id="content" class="site-content container clearfix" style="height: auto !important;">
+<section id="primary" class="content-single content-area">
+<main id="main" class="site-main" role="main">
+<article id="post-2296" class="post-2296 post type-post status-publish format-standard has-post-thumbnail hentry category-css category-html tag-css tag-svg tag-svg-filter tag-svg-turbulence tag-svg-turbulence-tutorial tag-water-effect">
+<img width="800" height="500" src="./water_files/svg-turbulence-water-effect-tutorial-800x500.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="svg-turbulence-water-effect-tutorial" loading="lazy">
+<div class="entry-categories clearfix">
+<span class="meta-category">
+<a href="https://redstapler.co/category/css/" rel="category tag">CSS</a> <a href="https://redstapler.co/category/html/" rel="category tag">HTML</a>			</span>
+</div><!-- .entry-categories -->
+<div class="post-content clearfix">
+<header class="entry-header">
+<h1 class="entry-title">Realistic Water Effect using SVG Turbulence Filter</h1>
+<div class="entry-meta"><span class="meta-date"><a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/" title="6:08 am" rel="bookmark"><time class="entry-date published updated" datetime="2020-12-28T06:08:21+00:00">December 28, 2020</time></a></span><span class="meta-author"> <span class="author vcard"><a class="url fn n" href="https://redstapler.co/author/redstaplerwp/" title="View all posts by Red Stapler" rel="author">Red Stapler</a></span></span><span class="meta-comments"> <a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comments">7</a></span></div>
+</header><!-- .entry-header -->
+<div class="entry-content clearfix">
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_individual_full_color swp_other_full_color scale-100  scale-" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="2296"><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt"><span class="swp_count ">4 <span class="swp_label">Shares</span></span></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span><span class="swp_count">4</span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter" style=""><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=Realistic+Water+Effect+using+SVG+Turbulence+Filter&amp;url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F" data-link="https://twitter.com/intent/tweet?text=Realistic+Water+Effect+using+SVG+Turbulence+Filter&amp;url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F"><span class="swp_count swp_hide"><span class="iconFiller" style=""><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest" style=""><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link noPop" onclick="var e=document.createElement(&#39;script&#39;);
+e.setAttribute(&#39;type&#39;,&#39;text/javascript&#39;);
+e.setAttribute(&#39;charset&#39;,&#39;UTF-8&#39;);
+e.setAttribute(&#39;src&#39;,&#39;//assets.pinterest.com/js/pinmarklet.js?r=&#39;+Math.random()*99999999);
+document.body.appendChild(e);
+"><span class="swp_count swp_hide"><span class="iconFiller" style=""><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_linkedin" data-network="linkedin"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F" data-link="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_linkedin_icon"></i><span class="swp_share">Share</span></span></span></span></a></div></div><p>If you think you need a JavaScript or WebGL to create an animation like demo below, think again! In this tutorial I’m going to show you how to create a realistic water effect using SVG turbulence filter and CSS. Let’s check it out!</p>
+<div class="background">
+<div class="water"></div>
+</div>
+<svg>
+<filter id="turbulence" x="0" y="0" width="100%" height="100%">
+<feturbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feturbulence>
+<fedisplacementmap scale="20" in="SourceGraphic"></fedisplacementmap>
+<animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"></animate>
+</filter>
+</svg>
+<h2>The HTML</h2>
+<p>We’ll need 2 divs. First for the original image. And another (the one with “water” class) is for masking.</p>
+<div class="enlighter-default enlighter-v-standard enlighter-t-monokai enlighter-hover enlighter-linenumbers enlighter-overflow-scroll "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw" title="Plain text"></div><div class="enlighter-btn enlighter-btn-copy" title="Copy to clipboard"></div><div class="enlighter-btn enlighter-btn-window" title="Open code in new window"></div><div class="enlighter-btn enlighter-btn-website" title="EnlighterJS 3 Syntax Highlighter"></div></div><div class="enlighter" style=""><div class=""><div><span class="enlighter-g1">&lt;</span><span class="enlighter-text">div </span><span class="enlighter-k1">class</span><span class="enlighter-text">=</span><span class="enlighter-s0">"background"</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">  </span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">div </span><span class="enlighter-k1">class</span><span class="enlighter-text">=</span><span class="enlighter-s0">"water"</span><span class="enlighter-g1">&gt;&lt;</span><span class="enlighter-text">/div</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">/div</span><span class="enlighter-g1">&gt;</span></div></div></div><div class="enlighter-raw">&lt;div class="background"&gt;
+  &lt;div class="water"&gt;&lt;/div&gt;
+&lt;/div&gt;</div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div><pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">&lt;div class="background"&gt;
+  &lt;div class="water"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>We’ll set the original image as background for the first div.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2298" src="./water_files/sea.jpg" alt="svg turbulence water effect tutorial" width="634" height="356" srcset="https://redstapler.co/wp-content/uploads/2019/10/sea.jpg 634w, https://redstapler.co/wp-content/uploads/2019/10/sea-300x168.jpg 300w" sizes="(max-width: 634px) 100vw, 634px"></p><div class="code-block code-block-1" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+<script async="" src="./water_files/f(12).txt"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 184px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4899457470508774" data-ad-slot="1172231044" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_0_expand" style="border: none; height: 184px; width: 734px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_0_anchor" style="border: none; height: 184px; width: 734px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:734px;height:184px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="734" height="184" frameborder="0" src="./water_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!1" data-google-query-id="CJrLt4rB4_QCFSrYcwEd2lcD3g" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- In-Article1 --></div>
+<div class="enlighter-default enlighter-v-standard enlighter-t-monokai enlighter-hover enlighter-linenumbers enlighter-overflow-scroll "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw" title="Plain text"></div><div class="enlighter-btn enlighter-btn-copy" title="Copy to clipboard"></div><div class="enlighter-btn enlighter-btn-window" title="Open code in new window"></div><div class="enlighter-btn enlighter-btn-website" title="EnlighterJS 3 Syntax Highlighter"></div></div><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">.background </span><span class="enlighter-g1">{</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">  position: absolute;</span></div></div><div class=""><div><span class="enlighter-text">  top: </span><span class="enlighter-n1">0</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text">  left: </span><span class="enlighter-n1">0</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text">  height: 100vh;</span></div></div><div class=""><div><span class="enlighter-text">  width: 100vw;</span></div></div><div class=""><div><span class="enlighter-text">  background-image: </span><span class="enlighter-m0">url</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"sea.jpg"</span><span class="enlighter-g1">)</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text">  background-size: cover;</span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-g1">}</span></div></div></div><div class="enlighter-raw">.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("sea.jpg");
+  background-size: cover;
+}</div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div><pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("sea.jpg");
+  background-size: cover;
+}</pre>
+<h2>Masking Layer</h2>
+<p><span style="font-size: 1.0625rem;">From the original image, I’ll use Photoshop to remove all the non-water part. You can use quick selection tool for this job. Use shift button to continue adding more selection. Sometimes it will pickup more area than you need but you can use the alternate button to remove it.</span></p>
+<p>Once you got all the non-water part. Press delete. Then you can the eraser tool for detailing and save the file as transparent png.</p>
+<p><img loading="lazy" class="alignnone size-large wp-image-2302" src="./water_files/svg-turbulence-tutorial-1-1024x604.jpg" alt="svg turbulence water effect tutorial" width="780" height="460" srcset="https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-tutorial-1-1024x604.jpg 1024w, https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-tutorial-1-300x177.jpg 300w, https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-tutorial-1-768x453.jpg 768w, https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-tutorial-1.jpg 1303w" sizes="(max-width: 780px) 100vw, 780px"></p>
+<p>And then set the mask image that we created as background.</p>
+<div class="enlighter-default enlighter-v-standard enlighter-t-monokai enlighter-hover enlighter-linenumbers enlighter-overflow-scroll "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw" title="Plain text"></div><div class="enlighter-btn enlighter-btn-copy" title="Copy to clipboard"></div><div class="enlighter-btn enlighter-btn-window" title="Open code in new window"></div><div class="enlighter-btn enlighter-btn-website" title="EnlighterJS 3 Syntax Highlighter"></div></div><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">.background .water </span><span class="enlighter-g1">{</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">  position: absolute;</span></div></div><div class=""><div><span class="enlighter-text">  background-image: </span><span class="enlighter-m0">url</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"sea-map.png"</span><span class="enlighter-g1">)</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text">  background-size: cover;</span></div></div><div class=""><div><span class="enlighter-text">  top:</span><span class="enlighter-n1">0</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text">  left:</span><span class="enlighter-n1">0</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text">  height: </span><span class="enlighter-n1">100</span><span class="enlighter-text">%;</span></div></div><div class=""><div><span class="enlighter-text">  width: </span><span class="enlighter-n1">100</span><span class="enlighter-text">%;</span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-g1">}</span></div></div></div><div class="enlighter-raw">.background .water {
+  position: absolute;
+  background-image: url("sea-map.png");
+  background-size: cover;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+}</div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div><pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">.background .water {
+  position: absolute;
+  background-image: url("sea-map.png");
+  background-size: cover;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+}
+</pre>
+<p>You won’t see any change yet. But the next step is the key.</p>
+<h2>SVG Turbulence Filter</h2>
+<p>We’ll use SVG turbulence filter. Basically it’s a filter that creates a turbulence effect on any element which is very useful for creating water and cloud effect. You can create a turbulence filter using &lt;svg&gt; tag. Then apply it to any element using CSS filter property.</p>
+<div class="enlighter-default enlighter-v-standard enlighter-t-monokai enlighter-hover enlighter-linenumbers enlighter-overflow-scroll "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw" title="Plain text"></div><div class="enlighter-btn enlighter-btn-copy" title="Copy to clipboard"></div><div class="enlighter-btn enlighter-btn-window" title="Open code in new window"></div><div class="enlighter-btn enlighter-btn-website" title="EnlighterJS 3 Syntax Highlighter"></div></div><div class="enlighter" style=""><div class=""><div><span class="enlighter-g1">&lt;</span><span class="enlighter-text">svg</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">  </span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">filter id=</span><span class="enlighter-s0">"turbulence"</span><span class="enlighter-text"> x=</span><span class="enlighter-s0">"0"</span><span class="enlighter-text"> y=</span><span class="enlighter-s0">"0"</span><span class="enlighter-text"> width=</span><span class="enlighter-s0">"100%"</span><span class="enlighter-text"> height=</span><span class="enlighter-s0">"100%"</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">feTurbulence id=</span><span class="enlighter-s0">"sea-filter"</span><span class="enlighter-text"> numOctaves=</span><span class="enlighter-s0">"3"</span><span class="enlighter-text"> seed=</span><span class="enlighter-s0">"2"</span><span class="enlighter-text"> baseFrequency=</span><span class="enlighter-s0">"0.02 0.05"</span><span class="enlighter-g1">&gt;&lt;</span><span class="enlighter-text">/feTurbulence</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">feDisplacementMap scale=</span><span class="enlighter-s0">"20"</span><span class="enlighter-text"> </span><span class="enlighter-k1">in</span><span class="enlighter-text">=</span><span class="enlighter-s0">"SourceGraphic"</span><span class="enlighter-g1">&gt;&lt;</span><span class="enlighter-text">/feDisplacementMap</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">  </span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">/filter</span><span class="enlighter-g1">&gt;</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-g1">&lt;</span><span class="enlighter-text">/svg</span><span class="enlighter-g1">&gt;</span></div></div></div><div class="enlighter-raw">&lt;svg&gt;
+  &lt;filter id="turbulence" x="0" y="0" width="100%" height="100%"&gt;
+    &lt;feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"&gt;&lt;/feTurbulence&gt;
+    &lt;feDisplacementMap scale="20" in="SourceGraphic"&gt;&lt;/feDisplacementMap&gt;
+  &lt;/filter&gt;
+&lt;/svg&gt;</div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div><pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">&lt;svg&gt;
+  &lt;filter id="turbulence" x="0" y="0" width="100%" height="100%"&gt;
+    &lt;feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"&gt;&lt;/feTurbulence&gt;
+    &lt;feDisplacementMap scale="20" in="SourceGraphic"&gt;&lt;/feDisplacementMap&gt;
+  &lt;/filter&gt;
+&lt;/svg&gt;</pre>
+<p>You can define the characteristic of the turbulence using attribute like seed and baseFrequency. It’s easier to understand each of them in action. There is a nice article on <a href="https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/">codrops</a> with demo that can try out.</p>
+<p>Next the feDisplacementMap tag, here you can set the filter scale amount and input graphic. We will set it to sourceGraphic which means we’ll use the source element that the filter was applied on as input.</p><div class="code-block code-block-2" style="margin: 8px 0; clear: both;">
+<script async="" src="./water_files/f(12).txt"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 184px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4899457470508774" data-ad-slot="5355575407" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" style="border: none; height: 184px; width: 734px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="border: none; height: 184px; width: 734px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:734px;height:184px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="734" height="184" frameborder="0" src="./water_files/ads(1).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!2" data-google-query-id="CPmG343B4_QCFUCJ2AUdbZEGig" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- In-Article2 --></div>
+<p>Now to create an animation we need to manipulate the baseFrequency. We can use &lt;animate&gt; tag.</p>
+<div class="enlighter-default enlighter-v-standard enlighter-t-monokai enlighter-hover enlighter-linenumbers enlighter-overflow-scroll "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw" title="Plain text"></div><div class="enlighter-btn enlighter-btn-copy" title="Copy to clipboard"></div><div class="enlighter-btn enlighter-btn-window" title="Open code in new window"></div><div class="enlighter-btn enlighter-btn-website" title="EnlighterJS 3 Syntax Highlighter"></div></div><div class="enlighter" style=""><div class=""><div><span class="enlighter-g1">&lt;</span><span class="enlighter-text">animate xlink:href=</span><span class="enlighter-s0">"#sea-filter"</span><span class="enlighter-text"> attributeName=</span><span class="enlighter-s0">"baseFrequency"</span><span class="enlighter-text"> dur=</span><span class="enlighter-s0">"60s"</span><span class="enlighter-text"> keyTimes=</span><span class="enlighter-s0">"0;0.5;1"</span><span class="enlighter-text"> values=</span><span class="enlighter-s0">"0.02 0.06;0.04 0.08;0.02 0.06"</span><span class="enlighter-text"> repeatCount=</span><span class="enlighter-s0">"indefinite"</span><span class="enlighter-text">/</span><span class="enlighter-g1">&gt;</span></div></div></div><div class="enlighter-raw">&lt;animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/&gt;</div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div><pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">&lt;animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/&gt;</pre>
+<p>It’s similar to CSS Keyframes. The code above means I’ve divided the animation into 3 keyframes. First the basefrequency is at 0.02 and 0.06. Then at half of the animation is 0.04 and 0.08 and back to 0.02 and 0.06 again at the end. I set the repeatCount to indefinite to create a loop.</p>
+<p>And finally applied the filter in CSS using the id of the filter tag.</p>
+<div class="enlighter-default enlighter-v-standard enlighter-t-monokai enlighter-hover enlighter-linenumbers enlighter-overflow-scroll "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw" title="Plain text"></div><div class="enlighter-btn enlighter-btn-copy" title="Copy to clipboard"></div><div class="enlighter-btn enlighter-btn-window" title="Open code in new window"></div><div class="enlighter-btn enlighter-btn-website" title="EnlighterJS 3 Syntax Highlighter"></div></div><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">.background .water </span><span class="enlighter-g1">{</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">...</span></div></div><div class=""><div><span class="enlighter-text">  filter: </span><span class="enlighter-m0">url</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"#turbulence"</span><span class="enlighter-g1">)</span><span class="enlighter-text">;</span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-g1">}</span></div></div></div><div class="enlighter-raw">.background .water {
+...
+  filter: url("#turbulence");
+}</div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div><pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">.background .water {
+...
+  filter: url("#turbulence");
+}</pre>
+<div class="code-block code-block-3" style="margin: 8px 0; clear: both;">
+<script async="" src="./water_files/f(12).txt"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 184px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4899457470508774" data-ad-slot="3934820475" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_2_expand" style="border: none; height: 184px; width: 734px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_2_anchor" style="border: none; height: 184px; width: 734px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:734px;height:184px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="734" height="184" frameborder="0" src="./water_files/ads(2).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!3" data-google-query-id="CKypt5nB4_QCFTmF2AUda5gP7w" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>And that’s for this tutorial. You can download the source code <a href="https://redstapler.co/wp-content/uploads/2019/10/svg-turbulence-tutorial-src.zip">here</a>. If you love this and want to see more development tips and tutorials, subscribe our <a href="https://www.youtube.com/c/RedStapler_channel">YouTube Channel</a> to stay tune 🙂</p>
+<iframe class="lazy-loaded" data-lazy-type="iframe" data-src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FtheRedStapler%2F&amp;width=450&amp;layout=standard&amp;action=like&amp;size=large&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=599455787171202" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" src="./water_files/like.html"></iframe><noscript><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FtheRedStapler%2F&width=450&layout=standard&action=like&size=large&show_faces=false&share=false&height=35&appId=599455787171202" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></noscript>
+<div class="written-by">Written By</div>
+<div class="social-follow">
+<img src="./water_files/tk-profile.jpg" class="rs-logo" draggable="false">
+<div class="short-bio">
+<span class="writer-name">TK</span>
+<span class="writer-bio">Engineer, Web Developer, Ex-Mutual Funds Software Developer. He founded Red Stapler in 2015 to share useful resources for everyone interested in web design, web development and programming. Subscribe his <a href="https://www.youtube.com/c/RedStapler_channel">YouTube Channel</a> or <a href="https://www.facebook.com/theRedStapler">Facebook Page</a> for weekly tips and tutorials.</span>
+</div>
+</div>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_individual_full_color swp_other_full_color scale-100  scale-" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="2296"><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt"><span class="swp_count ">4 <span class="swp_label">Shares</span></span></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span><span class="swp_count">4</span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=Realistic+Water+Effect+using+SVG+Turbulence+Filter&amp;url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F" data-link="https://twitter.com/intent/tweet?text=Realistic+Water+Effect+using+SVG+Turbulence+Filter&amp;url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest" style=""><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link noPop" onclick="var e=document.createElement(&#39;script&#39;);
+e.setAttribute(&#39;type&#39;,&#39;text/javascript&#39;);
+e.setAttribute(&#39;charset&#39;,&#39;UTF-8&#39;);
+e.setAttribute(&#39;src&#39;,&#39;//assets.pinterest.com/js/pinmarklet.js?r=&#39;+Math.random()*99999999);
+document.body.appendChild(e);
+"><span class="swp_count swp_hide"><span class="iconFiller" style=""><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_linkedin" data-network="linkedin"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F" data-link="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fredstapler.co%2Frealistic-water-effect-svg-turbulence-filter%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_linkedin_icon"></i><span class="swp_share">Share</span></span></span></span></a></div></div><!-- AI CONTENT END 1 -->
+</div><!-- .entry-content -->
+<footer class="entry-footer">
+<div class="entry-tags clearfix">
+<span class="meta-tags">
+<a href="https://redstapler.co/tag/css/" rel="tag">css</a><a href="https://redstapler.co/tag/svg/" rel="tag">svg</a><a href="https://redstapler.co/tag/svg-filter/" rel="tag">svg filter</a><a href="https://redstapler.co/tag/svg-turbulence/" rel="tag">svg turbulence</a><a href="https://redstapler.co/tag/svg-turbulence-tutorial/" rel="tag">svg turbulence tutorial</a><a href="https://redstapler.co/tag/water-effect/" rel="tag">water effect</a>				</span>
+</div><!-- .entry-tags -->
+</footer><!-- .entry-footer -->
+</div>
+</article>
+<div id="comments" class="comments-area">
+<header class="comments-header">
+<h2 class="comments-title">
+7 comments			</h2>
+</header><!-- .comment-header -->
+<ol class="comment-list">
+<li id="comment-332" class="comment even thread-even depth-1 parent">
+<article id="div-comment-332" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/087b81b818e49c837c0f2e5a671203c4.jpeg" srcset="https://secure.gravatar.com/avatar/087b81b818e49c837c0f2e5a671203c4?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">docToc</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-332"><time datetime="2019-10-09T18:51:15+00:00">October 9, 2019 at 6:51 pm</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>Looks great.<br>
+Could it be set as backroung  with text over it?</p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-332" data-commentid="332" data-postid="2296" data-belowelement="div-comment-332" data-respondelement="respond" data-replyto="Reply to docToc" aria-label="Reply to docToc">Reply</a></div>			</article><!-- .comment-body -->
+<ol class="children">
+<li id="comment-344" class="comment odd alt depth-2">
+<article id="div-comment-344" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/dc5e9f46a621b5010af407a2dd5e0d00" srcset="https://secure.gravatar.com/avatar/dc5e9f46a621b5010af407a2dd5e0d00?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">Vortetty</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-344"><time datetime="2019-10-19T03:32:50+00:00">October 19, 2019 at 3:32 am</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>yes, provided you have the css skills to do so. i have done this here: <a href="https://codepen.io/vortetty/full/gOOLaed" rel="nofollow ugc">https://codepen.io/vortetty/full/gOOLaed</a></p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-344" data-commentid="344" data-postid="2296" data-belowelement="div-comment-344" data-respondelement="respond" data-replyto="Reply to Vortetty" aria-label="Reply to Vortetty">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+<li id="comment-334" class="comment even thread-odd thread-alt depth-1">
+<article id="div-comment-334" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/73669c2075212e3d9a546103b3c69e1d" srcset="https://secure.gravatar.com/avatar/73669c2075212e3d9a546103b3c69e1d?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">Michael</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-334"><time datetime="2019-10-10T13:15:10+00:00">October 10, 2019 at 1:15 pm</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>Great website with great tutorials. Respect! I could even left comment on every tutorial in here, but don’t want to spam. Good work!</p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-334" data-commentid="334" data-postid="2296" data-belowelement="div-comment-334" data-respondelement="respond" data-replyto="Reply to Michael" aria-label="Reply to Michael">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+<li id="comment-342" class="comment odd alt thread-even depth-1">
+<article id="div-comment-342" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/cb8bd40d01ca1ebcc5fcaf52a16312d1.jpeg" srcset="https://secure.gravatar.com/avatar/cb8bd40d01ca1ebcc5fcaf52a16312d1?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">Venkatesh R</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-342"><time datetime="2019-10-18T05:40:49+00:00">October 18, 2019 at 5:40 am</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>Awesome. Great learning today.</p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-342" data-commentid="342" data-postid="2296" data-belowelement="div-comment-342" data-respondelement="respond" data-replyto="Reply to Venkatesh R" aria-label="Reply to Venkatesh R">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+<li id="comment-343" class="comment even thread-odd thread-alt depth-1">
+<article id="div-comment-343" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/c2abdb0c5e43becdb8acba45ffe8c5d1" srcset="https://secure.gravatar.com/avatar/c2abdb0c5e43becdb8acba45ffe8c5d1?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">MarkOakley</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-343"><time datetime="2019-10-18T22:15:49+00:00">October 18, 2019 at 10:15 pm</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>What am I doing wrong?  In Firefox, I’m not seeing the animation.</p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-343" data-commentid="343" data-postid="2296" data-belowelement="div-comment-343" data-respondelement="respond" data-replyto="Reply to MarkOakley" aria-label="Reply to MarkOakley">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+<li id="comment-349" class="comment odd alt thread-even depth-1">
+<article id="div-comment-349" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/357a20e8c56e69d6f9734d23ef9517e8" srcset="https://secure.gravatar.com/avatar/357a20e8c56e69d6f9734d23ef9517e8?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">waspoza</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-349"><time datetime="2019-10-24T10:23:00+00:00">October 24, 2019 at 10:23 am</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>Does not work on Firefox.</p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-349" data-commentid="349" data-postid="2296" data-belowelement="div-comment-349" data-respondelement="respond" data-replyto="Reply to waspoza" aria-label="Reply to waspoza">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+<li id="comment-410" class="comment even thread-odd thread-alt depth-1">
+<article id="div-comment-410" class="comment-body">
+<footer class="comment-meta">
+<div class="comment-author vcard">
+<img alt="" src="./water_files/7155edd2c332b231a66c4dd6df826f5a" srcset="https://secure.gravatar.com/avatar/7155edd2c332b231a66c4dd6df826f5a?s=112&amp;d=retro&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56" loading="lazy">						<b class="fn">Tarun</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+<div class="comment-metadata">
+<a href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-410"><time datetime="2020-03-29T17:43:03+00:00">March 29, 2020 at 5:43 pm</time></a>					</div><!-- .comment-metadata -->
+</footer><!-- .comment-meta -->
+<div class="comment-content">
+<p>Mine is lagging in mobile , what can be done</p>
+</div><!-- .comment-content -->
+<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#comment-410" data-commentid="410" data-postid="2296" data-belowelement="div-comment-410" data-respondelement="respond" data-replyto="Reply to Tarun" aria-label="Reply to Tarun">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+</ol><!-- .comment-list -->
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title"><span>Leave a Reply</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://redstapler.co/realistic-water-effect-svg-turbulence-filter/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://redstapler.co/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="2296" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p id="yWfZpTaktgBww8SuTwmt"><input type="hidden" name="sugar_sweet_email"><label><input type="checkbox" value="Y" name="cb_nombre464201388" id="_cb_nombre464201388"><span>&nbsp;I'm not a spammer.</span></label></p></form>	</div><!-- #respond -->
+</div><!-- #comments -->
+</main><!-- #main -->
+</section><!-- #primary -->
+<section id="secondary" class="sidebar widget-area clearfix" role="complementary" style="height: auto !important;">
+<aside id="tag_cloud-6" class="widget widget_tag_cloud clearfix"><div class="widget-header"><h3 class="widget-title">Browse by Category</h3></div><div class="tagcloud"><a href="https://redstapler.co/category/css/" class="tag-cloud-link tag-link-7 tag-link-position-1" style="font-size: 21.583333333333pt;" aria-label="CSS (84 items)">CSS</a>
+<a href="https://redstapler.co/category/excel/" class="tag-cloud-link tag-link-55 tag-link-position-2" style="font-size: 11.333333333333pt;" aria-label="Excel (4 items)">Excel</a>
+<a href="https://redstapler.co/category/html/" class="tag-cloud-link tag-link-6 tag-link-position-3" style="font-size: 19.916666666667pt;" aria-label="HTML (53 items)">HTML</a>
+<a href="https://redstapler.co/category/javascript/" class="tag-cloud-link tag-link-3 tag-link-position-4" style="font-size: 21.25pt;" aria-label="Javascript (77 items)">Javascript</a>
+<a href="https://redstapler.co/category/node-js/" class="tag-cloud-link tag-link-2 tag-link-position-5" style="font-size: 13.833333333333pt;" aria-label="Node.js (9 items)">Node.js</a>
+<a href="https://redstapler.co/category/others/" class="tag-cloud-link tag-link-1 tag-link-position-6" style="font-size: 17.666666666667pt;" aria-label="Others (28 items)">Others</a>
+<a href="https://redstapler.co/category/scss/" class="tag-cloud-link tag-link-268 tag-link-position-7" style="font-size: 8pt;" aria-label="SCSS (1 item)">SCSS</a>
+<a href="https://redstapler.co/category/web-development/" class="tag-cloud-link tag-link-4 tag-link-position-8" style="font-size: 22pt;" aria-label="Web Development (94 items)">Web Development</a></div>
+</aside><aside id="custom_html-18" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><script async="" src="./water_files/f(12).txt"></script>
+<!-- Widget-Vertical-Responsive-1 -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-4899457470508774" data-ad-slot="9818033781" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_3_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 280px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_3_anchor" style="border: none; height: 280px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:411px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="411" height="280" frameborder="0" src="./water_files/ads(3).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!4" data-google-query-id="CIGO6_PA4_QCFYOP2AUdy4oHng" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside>
+<aside id="recent-posts-6" class="widget widget_recent_entries clearfix">
+<div class="widget-header"><h3 class="widget-title">Suggested Tutorials</h3></div>
+<ul>
+<li>
+<a href="https://redstapler.co/css-3d-card-design-rgb-effect-tutorial/">CSS 3D Card Design with RGB Effect Tutorial</a>
+</li>
+<li>
+<a href="https://redstapler.co/three-js-realistic-material-reflection-tutorial/">Three.js Realistic Material Reflection Tutorial</a>
+</li>
+<li>
+<a href="https://redstapler.co/smallest-dev-and-gaming-pc-case-ever/">Smallest Dev and Gaming PC Case I Ever Built</a>
+</li>
+<li>
+<a href="https://redstapler.co/tilt-js-parallax-tutorial/">Create 3D Parallax Effect in 5 Minutes – Tilt.js Tutorial</a>
+</li>
+<li>
+<a href="https://redstapler.co/curved-css-animation-path/">How to Create Curved CSS Animation Path</a>
+</li>
+</ul>
+</aside><aside id="custom_html-3" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><script async="" src="./water_files/f(12).txt"></script>
+<!-- Widget-Vertical-Responsive-2 -->
+<ins class="adsbygoogle" style="display: block; height: 343px;" data-ad-client="ca-pub-4899457470508774" data-ad-slot="1085157903" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_4_expand" style="border: none; height: 343px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_4_anchor" style="border: none; height: 343px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: hidden;"><iframe id="aswift_4" name="aswift_4" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 411px; height: 343px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="411" height="343" frameborder="0" src="./water_files/ads(4).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!5" data-google-query-id="CJzTt4rB4_QCFcwBtwAdnpQF3A" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="text-5" class="widget widget_text clearfix">			<div class="textwidget"><iframe class="lazy-loaded" data-lazy-type="iframe" data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FtheRedStapler%2F&amp;tabs&amp;width=300&amp;height=214&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" height="214px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" src="./water_files/page.html"></iframe><noscript><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FtheRedStapler%2F&tabs&width=300&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="214px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></noscript></div>
+</aside><aside id="twitter-timeline-profile-3" class="widget widget_twitter-timeline-profile clearfix"><div class="twitter-timeline-profile"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 300px; height: 300px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="profile:redStapler_twit" title="Twitter Timeline" src="./water_files/saved_resource(7).html"></iframe></div></aside><aside id="custom_html-17" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><script async="" src="./water_files/f(12).txt"></script>
+<!-- Widget-Vertical-Responsive-3 -->
+<ins class="adsbygoogle" style="display: block; height: 343px;" data-ad-client="ca-pub-4899457470508774" data-ad-slot="6145912890" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_5_expand" style="border: none; height: 343px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_5_anchor" style="border: none; height: 343px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: hidden;"><iframe id="aswift_5" name="aswift_5" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 411px; height: 343px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="411" height="343" frameborder="0" src="./water_files/ads(5).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!6" data-google-query-id="CJbRt4rB4_QCFbQKtwAd7-4Dyg" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="custom_html-20" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><script async="" src="./water_files/f(12).txt"></script>
+<ins class="adsbygoogle" style="display: block; height: 1413px;" data-ad-format="autorelaxed" data-ad-client="ca-pub-4899457470508774" data-ad-slot="3547669715" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_6_expand" style="border: none; height: 1413px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_6_anchor" style="border: none; height: 1413px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_6" name="aswift_6" style="left:0;position:absolute;top:0;border:0;width:411px;height:1413px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="411" height="1413" frameborder="0" src="./water_files/ads(6).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!7" data-google-query-id="CK7tt4rB4_QCFQMBtwAdkpADeg" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside><aside id="custom_html-25" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><script async="" src="./water_files/f(12).txt"></script>
+<!-- RS-Side-Widget-Vertical-Responsive-5 -->
+<ins class="adsbygoogle" style="display: block; height: 343px;" data-ad-client="ca-pub-4899457470508774" data-ad-slot="7714939927" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_7_expand" style="border: none; height: 343px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_7_anchor" style="border: none; height: 343px; width: 411px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: hidden;"><iframe id="aswift_7" name="aswift_7" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 411px; height: 343px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="411" height="343" frameborder="0" src="./water_files/ads(7).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!8" data-google-query-id="CLHBko3B4_QCFRUrtwAddAcIpQ" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></aside>
+</section><!-- #secondary -->
+
+</div><!-- #content -->
+<div id="footer" class="footer-wrap">
+<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
+<div id="footer-text" class="site-info">
+<span class="credit-link"> ©2021 Red Stapler. All rights reserved.
+</span>
+</div><!-- .site-info -->
+<div id="footer-social-icons">
+<ul id="menu-menu-1" class="social-icons-menu"><li id="menu-item-56" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56"><a href="https://www.facebook.com/theRedStapler"><span class="screen-reader-text">Facebook</span></a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a href="https://twitter.com/redStapler_twit"><span class="screen-reader-text">Twitter</span></a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="https://www.youtube.com/c/RedStapler_channel"><span class="screen-reader-text">Youtube</span></a></li>
+</ul>				</div>
+</footer><!-- #colophon -->
+</div>
+</div><!-- #page -->
+<!-- <link rel='stylesheet' id='wp-coder-style-4-css'  href='https://redstapler.co/wp-content/uploads/wp-coder/style-4.css?ver=1578194660' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-coder-style-3-css'  href='https://redstapler.co/wp-content/uploads/wp-coder/style-3.css?ver=1578141971' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="./water_files/9rd6q.css" media="all">
+<script type="text/javascript" id="social_warfare_script-js-extra">
+/* <![CDATA[ */
+var socialWarfare = {"addons":[],"post_id":"2296","variables":{"emphasizeIcons":false,"powered_by_toggle":false,"affiliate_link":"https:\/\/warfareplugins.com"},"floatBeforeContent":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./water_files/script.min.js.download" id="social_warfare_script-js"></script>
+<script type="text/javascript" src="./water_files/comment-reply.min.js.download" id="comment-reply-js"></script>
+<script type="text/javascript" id="twitter-wjs-js-extra">
+/* <![CDATA[ */
+window.twttr=(function(w){t=w.twttr||{};t._e=[];t.ready=function(f){t._e.push(f);};return t;}(window));
+/* ]]> */
+</script>
+<script type="text/javascript" id="twitter-wjs" async="" defer="" src="./water_files/widgets.js.download" charset="utf-8"></script>
+<script type="text/javascript" id="jquery-lazyloadxt-js-extra">
+/* <![CDATA[ */
+var a3_lazyload_params = {"apply_images":"1","apply_videos":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./water_files/jquery.lazyloadxt.extra.min.js.download" id="jquery-lazyloadxt-js"></script>
+<script type="text/javascript" src="./water_files/jquery.lazyloadxt.srcset.min.js.download" id="jquery-lazyloadxt-srcset-js"></script>
+<script type="text/javascript" id="jquery-lazyloadxt-extend-js-extra">
+/* <![CDATA[ */
+var a3_lazyload_extend_params = {"edgeY":"0","horizontal_container_classnames":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./water_files/jquery.lazyloadxt.extend.js.download" id="jquery-lazyloadxt-extend-js"></script>
+<script type="text/javascript" src="./water_files/enlighterjs.min.js.download" id="enlighterjs-js"></script>
+<script type="text/javascript" id="enlighterjs-js-after">
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":2,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"scroll","linenumbers":true,"theme":"monokai","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type="text/javascript" id="icwp-wpsf-shield-comments-js-extra">
+/* <![CDATA[ */
+var shield_comments = {"ajax":{"comment_token":{"action":"icwp-wpsf","exec":"comment_token35.232.84.2","exec_nonce":"8919d7595e","mod_slug":"icwp-wpsf-comments_filter","ajaxurl":"https:\/\/redstapler.co\/wp-admin\/admin-ajax.php","ts":1632751920,"post_id":2296}},"vars":{"cbname":"cb_nombre464201388","botts":1632751920,"token":"not created","uniq":"yWfZpTaktgBww8SuTwmt","cooldown":20,"expires":1800},"strings":{"label":"I'm not a spammer.","alert":"Check the box to confirm you're human","comment_reload":"Reload page to post a comment.","js_comment_wait":"Wait %s seconds."},"flags":{"gasp":true,"recap":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./water_files/comments.js.download" id="icwp-wpsf-shield-comments-js"></script>
+<script type="text/javascript" src="./water_files/wp-embed.min.js.download" id="wp-embed-js"></script>
+<script type="text/javascript"> var swp_nonce = "46bfd57855";function parentIsEvil() { var html = null; try { var doc = top.location.pathname; } catch(err){ }; if(typeof doc === "undefined") { return true } else { return false }; }; if (parentIsEvil()) { top.location = self.location.href; };var url = "https://redstapler.co/realistic-water-effect-svg-turbulence-filter/";if(url.indexOf("stfi.re") != -1) { var canonical = ""; var links = document.getElementsByTagName("link"); for (var i = 0; i < links.length; i ++) { if (links[i].getAttribute("rel") === "canonical") { canonical = links[i].getAttribute("href")}}; canonical = canonical.replace("?sfr=1", "");top.location = canonical; console.log(canonical);};var swpFloatBeforeContent = true; var swp_ajax_url = "https://redstapler.co/wp-admin/admin-ajax.php"; var swp_post_id = "2296";var swpClickTracking = false;</script>
+
+<div id="content-overlay" class="content-overlay"></div><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_8_expand" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_8_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_8" name="aswift_8" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./water_files/ads(8).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!9" data-load-complete="true"></iframe></ins></ins></ins><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./water_files/widget_iframe.21f942bb866c2823339b839747a0c50c.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./water_files/saved_resource(8).html"></iframe><iframe src="./water_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./water_files/zrt_lookup.html" style="display: none;"></iframe></html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ece books</title>
+
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+        <style>
+            body{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body align="center">
+         
+        <section class="container content-section" >
+
+        </section>
+        <section class="container content-section">
+        <br>
+        <br>
+        <br>
+            <font color="blue"><h1 class="section-header">ELECTRONICS AND COMMUNICATION ENGINEERING</h1></font>
+
+            <div class="shop-items">
+                <div class="shop-item">
+                    
+                <table align="center" border="2">
+                <tr><td>
+                    <h2><span class="shop-item-title">Electronics Communication System</span></h2>
+                    
+                    <img class="shop-item-image" src="elect2.jpeg">
+                    <div class="detail">
+                        <br>
+                        <br>
+                        <span class="price">$99.98</span>
+                        <br>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                    </td>
+                </div>
+                <br>
+                <br>
+                <td>
+                <div class="shop-item">
+                    <h2><span class="shop-item-title">Basics of analog Electronics</span></h2>
+                    <img class="shop-item-image" src="elect3.jpeg">
+                    <div class="detail">
+                        <br>
+                        <br>
+                        <span class="price">$51</span>
+                        <br>
+                        <button class="button"type="button">ADD TO CART</button>
+                    </div>
+                </td>
+            </tr>
+                </div>
+                <br>
+                <br>
+                <tr><td>
+                <div class="shop-item">
+                   <h2><span class="shop-item-title">Satellite Communications</span></h2> 
+                    <img class="shop-item-image" src="elect4.jpg">
+                    <div class="detail">
+                        <br>
+                        <br>
+                        <span class="price">$40</span>
+                        <br>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </td>
+                </div>
+                <br>
+                <br>
+                <td>
+                <div class="shop-item">
+                   <h2> <span class="shop-item-title">Digital Signal Communication</span></h2>
+                    <img class="shop-item-image" src="elect5.jpg">
+                    <div class="detail">
+                        <br>
+                        <br>
+                        <span class="price">$97.99</span>
+                        <br>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </td></tr>
+                </div>
+            </div>
+        </section>
+    </table>
+        
+        <section class="container content-section">
+            <hr>
+            <hr>
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+            
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <br>
+            <br>
+            <div class="cart-items">
+            </div>
+            <br>
+            <br>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            <br>
+
+            <form action="http://localhost:8080/book31/payform.html">
+                <br>
+             <input type="submit" value="CheckOut" name="CheckOut"/>
+             <br>
+           
+            </form>
+            <form action="http://localhost:8080/book31/OnlineBook.html">
+                <br>
+                <input type="submit" value="Back to Home Page" name="back"/>
+            </form>
+                        </section>
+        
+    </body>
+</html>
